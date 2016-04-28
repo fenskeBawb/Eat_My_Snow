@@ -10,5 +10,3 @@ def home(request):
         "form": form
     }
     return render(request,"blog_home.html",context)
-
-
