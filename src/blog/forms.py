@@ -4,7 +4,7 @@ from .models import blog
 
 class BlogSpot(forms.ModelForm):
     class Meta:
-        model = blog[9]
+        model = blog
         fields = ['title', 'caption', 'media']
 
     # class clean_blog(self):
